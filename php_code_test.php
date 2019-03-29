@@ -180,7 +180,6 @@
 							
         function qty_operation(field,op){
             var current_val = parseInt($('.'+field+'_qty').val());
-            //console.log(lookup_arr);
             if(op == 1){
                 var max_val = lookup_arr[field]['max'];
                 if(current_val < max_val){
