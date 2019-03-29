@@ -131,7 +131,7 @@
               <div class="col-lg-6">
               <div class="count">
                   <span class="minus bg-dark" onclick="qty_operation('room',0)">-</span>
-                  <input type="number" class="qty room_qty" name="qty" value="1">
+                  <input type="text" class="qty room_qty" name="qty" value="1">
                   <span class="plus bg-dark" onclick="qty_operation('room',1)">+</span>
               </div> 
             </div>
@@ -145,7 +145,7 @@
               <div class="col-lg-6">
               <div class="count">
                   <span class="minus bg-dark adult_minus" onclick="qty_operation('adult',0)">-</span>
-                  <input type="number" class="qty adult_qty" name="qty" value="1">
+                  <input type="text" class="qty adult_qty" name="qty" value="1">
                   <span class="plus bg-dark adult_plus" onclick="qty_operation('adult',1)">+</span>
               </div> 
             </div>
@@ -159,7 +159,7 @@
               <div class="col-lg-6">
               <div class="count">
                   <span class="minus bg-dark children_minus" onclick="qty_operation('children',0)">-</span>
-                  <input type="number" class="qty children_qty" name="qty" value="0">
+                  <input type="text" class="qty children_qty" name="qty" value="0">
                   <span class="plus bg-dark children_plus" onclick="qty_operation('children',1)">+</span>
               </div> 
             </div>
