@@ -228,20 +228,6 @@
 				}
             }
         }
-        
-        $(document).ready(function(){
-            
-            /*$('.qty').prop('disabled', true);
-            $(document).on('click','.plus',function(){
-            $('.qty').val(parseInt($('.qty').val()) + 1 );
-            });
-              $(document).on('click','.minus',function(){
-              $('.qty').val(parseInt($('.qty').val()) - 1 );
-                if ($('.qty').val() == 0) {
-                $('.qty').val(1);
-              }
-            });*/
-        });
     </script>
   </body>
 </html>
