@@ -1,4 +1,4 @@
-var lookup_arr = { "room": { "min": 1, "max": 5} ,
+	var lookup_arr = { "room": { "min": 1, "max": 5} ,
                             "adult": { "min": 1, "max": 4},
                             "children": { "min": 0, "max": 3} };
 							
